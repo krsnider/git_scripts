@@ -3,10 +3,12 @@ if [ "$#" -eq 0 ]; then
     echo "error: branch name required"
     exit 1
 fi
+
 if [ "$#" -gt 1 ]; then
     echo "error: only branch name allowed"
     exit 1
-    fi
+fi
+
 if [ "$#" -eq 1 ]; then
     echo "status before"
     echo ""
@@ -28,3 +30,5 @@ if [ "$#" -eq 1 ]; then
     echo ""
     git pushd
 fi
+
+exit 0
