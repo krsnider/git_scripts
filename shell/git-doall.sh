@@ -14,16 +14,17 @@ if [ "$#" -eq 1 ]; then
     echo ""
     git status
     
-    echo ""
-    echo "commited branch with commit name: $1"
-    echo ""
     git add .
-    git commit -m "$1"
     
     echo ""
     echo "status after"
     echo ""
     git status
+    
+    echo ""
+    echo "commited branch with commit name: $1"
+    echo ""
+    git commit -m "$1"
     
     echo ""
     echo "pushing"
