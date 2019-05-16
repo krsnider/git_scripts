@@ -14,6 +14,7 @@ fi
 if [ ! -f git\\git-$1 ] && [ "$#" -eq 1 ]
 then
     echo "#!/bin/bash" > shell\\git-$1.sh
+    vim shell\\git-$1.sh
 fi
 
 exit 0

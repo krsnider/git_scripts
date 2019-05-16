@@ -8,7 +8,7 @@ A project to easily create and maintain custom git commands.
 
 ## Getting Started
 
-- Add git-scripts\git folder to your PATH or put PATH=$PATH:*PATH TO git_Scripts\git* in your .bashrc
+- Add 'git-scripts\git' folder to your PATH or put PATH=$PATH:*PATH TO git_Scripts\git* in your .bashrc
 
 
 ## Creating commands
@@ -21,3 +21,10 @@ A project to easily create and maintain custom git commands.
 
 Once you have created a command with the steps above you should be able to call your command name with "git *command name*" from anywhere
 
+## Command Descriptions
+
+### `git doall`
+### `git newbranch`
+### `git pushd`
+### `git stull`
+### `git switch`
