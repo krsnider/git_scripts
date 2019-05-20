@@ -9,7 +9,7 @@ if [ "$#" -lt 1 ]; then
     exit 1
 fi
 
-if [ "$#" -lt 1 ]; then
+if [ "$#" -eq 1 ]; then
     git doall "switching branches"
     git checkout origin/master
     git git checkout -b $1
