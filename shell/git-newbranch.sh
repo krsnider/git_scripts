@@ -12,7 +12,7 @@ fi
 if [ "$#" -eq 1 ]; then
     git doall "switching branches"
     git checkout origin/master
-    git git checkout -b $1
+    git checkout -b $1
     git push --set-upstream origin $1
 fi
 
